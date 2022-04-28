@@ -17,16 +17,16 @@
 #include <WiFi.h>
 
 // Hier die eigenen WLAN-Einstellungen einsetzen...
-const char* ssid = "hbvdr";
-const char* password = "babybaer";
+const char* ssid = "ssid";
+const char* password = "wlan-passwort";
 
 //...und hier die EMail-Einstellungen
-#define emailBenutzer "heinzbehling@heinzbehling.de"
-#define emailPasswort "270859Witten"
-#define smtpServer    "smtp.1und1.de"
-#define smtpServerPort 587
+#define emailBenutzer "xyz@abc.de"
+#define emailPasswort "ihr email passwort"
+#define smtpServer    "smtp-serveradresse
+#define smtpServerPort xyz
 #define emailBetreff  "Tier in Falle"
-#define emailAdressat "baerenpapa@hotmail.com"
+#define emailAdressat "adresse@xy.ab"
 //Bei Bedarf weitere Empfängeradresse eintragen und nummerieren
 //#define emailAdressat2 "xyz@abc.de"
 
@@ -48,6 +48,8 @@ SMTPData smtpData;
 
 void setup() {
   //WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0); //disable brownout detector
+  
+  //ESP alle 30 Minuten wieder einschalten (Zeit ist in Mikrosekunden)
   esp_sleep_enable_timer_wakeup(180000000000); 
   
   Serial.begin(115200);
@@ -124,13 +126,13 @@ void setup() {
   //...und senden
   sendPhoto();
 
-  //und schlafen gehen
+  //...und schlafen gehen
   Serial.printf("Gehe jetzt 5 Minuten schlafen und schicke dann die nächste EMail");
   esp_deep_sleep_start();
 }
 
 void loop() {
-
+//Hier passiert nix, da wir kein ständig sich wiederholendes Programm brauchen  
 }
 
 //Funktionsdefinitionen
