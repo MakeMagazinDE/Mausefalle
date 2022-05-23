@@ -10,7 +10,6 @@ mit ESP32-CAM und EMail-Alarm
 
 [Hier finden Sie das Programm und die Lasercut-Dateien: ](https://github.com/WingIdeeLab/CoffeeGuard)
 
-Hier finden Sie das Programm zur Mausefalle. 
 Den Artikel mit der Bauanleitung gibt es in der **[Make-Ausgabe 3/22 ab Seite 40](https://www.heise.de/select/make/2022/3/2205311170134682868)** zu lesen. 
 Die Online-Anleitung zur Software finden Sie hier: 
 
