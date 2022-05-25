@@ -6,7 +6,7 @@ Maker Media GmbH
 # Mausefalle
 mit ESP32-CAM und EMail-Alarm
 
-### Diese KMausefalle fängt Nagetiere lebend und sendet bei Erfolg eine E-Mail, damit das Tier schnell wieder befreit werden kann.
+### Diese Mausefalle fängt Nagetiere lebend und sendet bei Erfolg eine E-Mail, damit das Tier schnell wieder befreit werden kann.
 
 ![Picture](https://github.com/MakeMagazinDE/Mausefalle/blob/main/432611_1.jpg)
 
