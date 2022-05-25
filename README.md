@@ -6,7 +6,7 @@ Maker Media GmbH
 # Mausefalle
 mit ESP32-CAM und EMail-Alarm
 
-### Diese Kaffee-Tab-Waage überwacht ständig den Kaffeevorrat und sendet bei Unterschreiten einer lebensnotwendigen Mindestmenge Alarm-E-Mails und MQTT-Nachrichten.
+### Diese KMausefalle fängt Nagetiere lebend und sendet bei Erfolg eine E-Mail, damit das Tier schnell wieder befreit werden kann.
 
 [Hier finden Sie das Programm und die Lasercut-Dateien. ](https://github.com/WingIdeeLab/CoffeeGuard)
 
